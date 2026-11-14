@@ -1,0 +1,81 @@
+.header-cointainer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+.header-text h1 {
+    margin: 0 0 8px 0;
+     
+}
+.header-text p {
+    margin: 0;
+    line-height: 1.5;
+    
+}
+
+body { 
+    background-color: #f5f5dc;
+} 
+.header-text h1,h2,h3 {
+    color:#1e3a8a
+}
+
+.header-text p {
+    
+    color:#1e293b;
+}
+button {
+    color: #0c4edc;
+    background-color: #a9d1ab;
+}
+.contact-navbar {
+    background-color: #a9d1ab;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body {
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a9d1ab;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+}
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+.nav-btn {
+    text-decoration: none;
+    background-color: #1e3a2f;
+    color:  #f5f5dc;
+    padding:8px 14px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+
+}
+.nav-btn:hover {
+    background-color: #6fa7a3;
+}
